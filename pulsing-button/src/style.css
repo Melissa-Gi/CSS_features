@@ -1,0 +1,36 @@
+body{
+  background:#000;
+}
+
+button{
+  display:block;
+  font-family: 'Courier New', monospace;
+  font-size:20px;
+  font-weight:bold;
+  margin:100px auto;
+  padding:20px;
+  border-radius:30px;
+  width:120px;
+  height:auto;
+  background:rgb(0,0,0);
+  color:#FFF;
+  /*
+  -moz-box-shadow:    1px 1px 10px 1px #00c;
+  -webkit-box-shadow: 1px 1px 10px 1px #00c;
+  box-shadow:         1px 1px 10px 1px #00c;
+  */
+  animation: pulse 2s infinite ease-in-out;
+  -webkit-animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 14px #B57BFF; }
+	50% { box-shadow: 0 0 14px 6px #B57BFF; }
+	100% { box-shadow: 0 0 14px #B57BFF; }
+}
+
+@-webkit-keyframes pulse {
+	0% { -webkit-box-shadow: 0 0 14px #B57BFF; }
+	50% { -webkit-box-shadow: 0 0 14px 6px #BC88FF }
+	100% { -webkit-box-shadow: 0 0 14px #B57BFF; }
+}
