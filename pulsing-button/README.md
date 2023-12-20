@@ -1,5 +1,5 @@
 # Pulsing Button
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/jeffdaze/pen/GRNeOW](https://codepen.io/jeffdaze/pen/GRNeOW).
+Inspired by CodePen designs, this button centred on the screen was perfect for the Wrap Up Video I made at work. 
 
-Using css animation to make a pulsing button...
+Within dist, launch index.html in your browser to see the button. 
